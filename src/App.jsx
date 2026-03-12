@@ -72,13 +72,13 @@ export default function App() {
       {/* Navigation */}
       <nav className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/80 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'}`}>
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-          <div className="flex items-center space-x-3 group cursor-pointer">
+          <div className="flex items-center space-x-2 md:space-x-3 group cursor-pointer max-w-[70vw] md:max-w-none">
             <img 
               src="/images/adventist-symbol-circle--white.png" 
               alt="Adventist Symbol" 
-              className="w-10 h-10 object-contain group-hover:rotate-12 transition-transform"
+              className="w-8 h-8 md:w-10 md:h-10 object-contain group-hover:rotate-12 transition-transform shrink-0"
             />
-            <span className={`font-bold text-lg tracking-tight transition-colors ${scrolled ? 'text-slate-900' : 'text-white'}`}>
+            <span className={`font-bold text-xs sm:text-sm md:text-lg tracking-tight transition-colors leading-tight ${scrolled ? 'text-slate-900' : 'text-white'}`}>
               Cranborne <span className="text-emerald-500">Seventh-Day Adventist Church</span>
             </span>
           </div>
@@ -392,13 +392,13 @@ export default function App() {
             </div>
 
             <div className="pt-20 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-8">
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-3 text-left">
                 <img 
                   src="/images/adventist-symbol-circle--white.png" 
                   alt="Adventist Symbol" 
-                  className="w-12 h-12 object-contain"
+                  className="w-10 h-10 md:w-12 md:h-12 object-contain shrink-0"
                 />
-                <span className="font-bold text-lg tracking-tight text-white uppercase italic">
+                <span className="font-bold text-sm md:text-lg tracking-tight text-white uppercase italic leading-tight">
                   Cranborne <span className="text-emerald-500 font-black">Seventh-Day Adventist Church</span>
                 </span>
               </div>
