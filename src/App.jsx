@@ -108,7 +108,7 @@ export default function App() {
           <div className="absolute inset-0 bg-gradient-to-b from-emerald-950/80 via-emerald-950/60 to-slate-50"></div>
         </div>
         
-        <div className="container mx-auto px-6 relative z-10 text-center pt-20">
+        <div className="container mx-auto px-6 relative z-10 text-center pt-20 pb-32">
           <div className="inline-flex items-center space-x-2 py-1.5 px-4 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-bold tracking-widest mb-8 uppercase animate-fade-in-up">
             <Users size={14} />
             <span>Serving Our Congregation</span>
