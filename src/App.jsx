@@ -111,7 +111,7 @@ export default function App() {
         <div className="container mx-auto px-6 relative z-10 text-center pt-20 pb-32">
           <div className="inline-flex items-center space-x-2 py-1.5 px-4 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-bold tracking-widest mb-8 uppercase animate-fade-in-up">
             <Users size={14} />
-            <span>Serving Our Congregation</span>
+            <span>Karreeboom Campsite</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-black mb-8 leading-[1.1] text-white tracking-tight animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
             Building a Foundation of <br className="hidden lg:block"/> 
