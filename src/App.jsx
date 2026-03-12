@@ -78,9 +78,10 @@ export default function App() {
               alt="Adventist Symbol" 
               className="w-8 h-8 md:w-10 md:h-10 object-contain group-hover:rotate-12 transition-transform shrink-0"
             />
-            <span className={`font-bold text-xs sm:text-sm md:text-lg tracking-tight transition-colors leading-tight ${scrolled ? 'text-slate-900' : 'text-white'}`}>
-              Cranborne <span className="text-emerald-500">Seventh-Day Adventist Church</span>
-            </span>
+            <div className={`flex flex-col font-bold leading-tight transition-colors ${scrolled ? 'text-slate-900' : 'text-white'}`}>
+              <span className="text-[10px] sm:text-xs md:text-lg">Cranborne Seventh-Day</span>
+              <span className="text-emerald-500 text-[11px] sm:text-sm md:text-lg">Adventist Church</span>
+            </div>
           </div>
           <div className="hidden md:flex items-center space-x-8 mr-8">
             {['Vision', 'Goal', 'Transparency', 'Donate'].map((item) => (
@@ -398,9 +399,10 @@ export default function App() {
                   alt="Adventist Symbol" 
                   className="w-10 h-10 md:w-12 md:h-12 object-contain shrink-0"
                 />
-                <span className="font-bold text-sm md:text-lg tracking-tight text-white uppercase italic leading-tight">
-                  Cranborne <span className="text-emerald-500 font-black">Seventh-Day Adventist Church</span>
-                </span>
+                <div className="flex flex-col font-bold uppercase italic leading-tight text-white">
+                  <span className="text-sm md:text-lg">Cranborne Seventh-Day</span>
+                  <span className="text-emerald-500 font-black text-xs md:text-lg">Adventist Church</span>
+                </div>
               </div>
               <p className="text-slate-500 text-sm font-bold">
                 © 2026 Camp Development Committee. For the growth of our faith community.
