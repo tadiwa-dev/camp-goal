@@ -93,7 +93,7 @@ export default function App() {
               </a>
             ))}
           </div>
-          <a href="#donate" className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2.5 rounded-full font-bold transition-all hover:scale-105 active:scale-95 shadow-md hover:shadow-emerald-200/50">
+          <a href="#donate" className="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 md:px-6 md:py-2.5 rounded-full font-bold text-xs sm:text-sm md:text-base transition-all hover:scale-105 active:scale-95 shadow-md hover:shadow-emerald-200/50 shrink-0">
             Give Now
           </a>
         </div>
