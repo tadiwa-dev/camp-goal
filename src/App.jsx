@@ -27,7 +27,7 @@ export default function App() {
   }, []);
 
   // Hardcoded current raised amount for the progress bar
-  const amountRaised = 850; 
+  const amountRaised = 1200; 
   const totalGoal = 4058.25;
   const progressPercentage = Math.min((amountRaised / totalGoal) * 100, 100);
 
